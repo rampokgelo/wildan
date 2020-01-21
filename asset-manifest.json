@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "rampokgelo.github.io/wildan/static/css/main.14e22496.chunk.css",
-    "main.js": "rampokgelo.github.io/wildan/static/js/main.4c8cba69.chunk.js",
-    "main.js.map": "rampokgelo.github.io/wildan/static/js/main.4c8cba69.chunk.js.map",
-    "runtime-main.js": "rampokgelo.github.io/wildan/static/js/runtime-main.2d582db9.js",
-    "runtime-main.js.map": "rampokgelo.github.io/wildan/static/js/runtime-main.2d582db9.js.map",
-    "static/js/2.a5d2de6c.chunk.js": "rampokgelo.github.io/wildan/static/js/2.a5d2de6c.chunk.js",
-    "static/js/2.a5d2de6c.chunk.js.map": "rampokgelo.github.io/wildan/static/js/2.a5d2de6c.chunk.js.map",
-    "index.html": "rampokgelo.github.io/wildan/index.html",
-    "precache-manifest.01e093431002c965e4d4ef9b3034f240.js": "rampokgelo.github.io/wildan/precache-manifest.01e093431002c965e4d4ef9b3034f240.js",
-    "service-worker.js": "rampokgelo.github.io/wildan/service-worker.js",
-    "static/css/main.14e22496.chunk.css.map": "rampokgelo.github.io/wildan/static/css/main.14e22496.chunk.css.map",
-    "static/js/2.a5d2de6c.chunk.js.LICENSE": "rampokgelo.github.io/wildan/static/js/2.a5d2de6c.chunk.js.LICENSE",
-    "static/media/corestyle.scss": "rampokgelo.github.io/wildan/static/media/fa-solid-900.c2801fb4.svg"
+    "main.css": "/wildan/static/css/main.82bea3d2.chunk.css",
+    "main.js": "/wildan/static/js/main.0abecdb1.chunk.js",
+    "main.js.map": "/wildan/static/js/main.0abecdb1.chunk.js.map",
+    "runtime-main.js": "/wildan/static/js/runtime-main.044a82c3.js",
+    "runtime-main.js.map": "/wildan/static/js/runtime-main.044a82c3.js.map",
+    "static/js/2.a5d2de6c.chunk.js": "/wildan/static/js/2.a5d2de6c.chunk.js",
+    "static/js/2.a5d2de6c.chunk.js.map": "/wildan/static/js/2.a5d2de6c.chunk.js.map",
+    "index.html": "/wildan/index.html",
+    "precache-manifest.b043e025fa63766225a8a792dc7f0691.js": "/wildan/precache-manifest.b043e025fa63766225a8a792dc7f0691.js",
+    "service-worker.js": "/wildan/service-worker.js",
+    "static/css/main.82bea3d2.chunk.css.map": "/wildan/static/css/main.82bea3d2.chunk.css.map",
+    "static/js/2.a5d2de6c.chunk.js.LICENSE": "/wildan/static/js/2.a5d2de6c.chunk.js.LICENSE",
+    "static/media/corestyle.scss": "/wildan/static/media/fa-solid-900.c2801fb4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2d582db9.js",
+    "static/js/runtime-main.044a82c3.js",
     "static/js/2.a5d2de6c.chunk.js",
-    "static/css/main.14e22496.chunk.css",
-    "static/js/main.4c8cba69.chunk.js"
+    "static/css/main.82bea3d2.chunk.css",
+    "static/js/main.0abecdb1.chunk.js"
   ]
 }
