@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "rampokgelo.github.io/wildan/precache-manifest.3702ad6c8a804560af1a01b2dfbafb69.js"
+  "rampokgelo.github.io/wildan/precache-manifest.01e093431002c965e4d4ef9b3034f240.js"
 );
 
 self.addEventListener('message', (event) => {

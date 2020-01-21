@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e8148124223993f6024fc569f2cbb34",
+    "revision": "885417b2ec9e443e84653119cc99d75e",
     "url": "rampokgelo.github.io/wildan/index.html"
   },
   {
-    "revision": "b1c747ba6d229bf9b4c7",
-    "url": "rampokgelo.github.io/wildan/static/css/main.0c30417e.chunk.css"
+    "revision": "548d359b0931bfd55a75",
+    "url": "rampokgelo.github.io/wildan/static/css/main.14e22496.chunk.css"
   },
   {
-    "revision": "6d17b0ea4c3eca5169d8",
-    "url": "rampokgelo.github.io/wildan/static/js/2.fee87c1f.chunk.js"
+    "revision": "2f9101927e4d7744a86f",
+    "url": "rampokgelo.github.io/wildan/static/js/2.a5d2de6c.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "rampokgelo.github.io/wildan/static/js/2.fee87c1f.chunk.js.LICENSE"
+    "url": "rampokgelo.github.io/wildan/static/js/2.a5d2de6c.chunk.js.LICENSE"
   },
   {
-    "revision": "b1c747ba6d229bf9b4c7",
-    "url": "rampokgelo.github.io/wildan/static/js/main.1231664c.chunk.js"
+    "revision": "548d359b0931bfd55a75",
+    "url": "rampokgelo.github.io/wildan/static/js/main.4c8cba69.chunk.js"
   },
   {
-    "revision": "7938bb31cc20fb1ec743",
-    "url": "rampokgelo.github.io/wildan/static/js/runtime-main.4106505b.js"
+    "revision": "45cdaaea4c9cd337c5b6",
+    "url": "rampokgelo.github.io/wildan/static/js/runtime-main.2d582db9.js"
   },
   {
     "revision": "06147b6cd88c7346cecd1edd060cd5de",
