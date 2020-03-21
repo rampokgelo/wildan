@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/wildan/static/css/main.82bea3d2.chunk.css",
-    "main.js": "/wildan/static/js/main.7af4babe.chunk.js",
-    "main.js.map": "/wildan/static/js/main.7af4babe.chunk.js.map",
+    "main.css": "/wildan/static/css/main.4e1433db.chunk.css",
+    "main.js": "/wildan/static/js/main.d3728b73.chunk.js",
+    "main.js.map": "/wildan/static/js/main.d3728b73.chunk.js.map",
     "runtime-main.js": "/wildan/static/js/runtime-main.044a82c3.js",
     "runtime-main.js.map": "/wildan/static/js/runtime-main.044a82c3.js.map",
     "static/js/2.150d1c8a.chunk.js": "/wildan/static/js/2.150d1c8a.chunk.js",
     "static/js/2.150d1c8a.chunk.js.map": "/wildan/static/js/2.150d1c8a.chunk.js.map",
     "index.html": "/wildan/index.html",
-    "precache-manifest.d2319f82020d2b59a1700223c5087cad.js": "/wildan/precache-manifest.d2319f82020d2b59a1700223c5087cad.js",
+    "precache-manifest.d64eb227cc99f2d43845b46ec5c92c3b.js": "/wildan/precache-manifest.d64eb227cc99f2d43845b46ec5c92c3b.js",
     "service-worker.js": "/wildan/service-worker.js",
-    "static/css/main.82bea3d2.chunk.css.map": "/wildan/static/css/main.82bea3d2.chunk.css.map",
+    "static/css/main.4e1433db.chunk.css.map": "/wildan/static/css/main.4e1433db.chunk.css.map",
     "static/js/2.150d1c8a.chunk.js.LICENSE": "/wildan/static/js/2.150d1c8a.chunk.js.LICENSE",
-    "static/media/corestyle.scss": "/wildan/static/media/fa-solid-900.c2801fb4.svg"
+    "static/media/corestyle.scss": "/wildan/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.044a82c3.js",
     "static/js/2.150d1c8a.chunk.js",
-    "static/css/main.82bea3d2.chunk.css",
-    "static/js/main.7af4babe.chunk.js"
+    "static/css/main.4e1433db.chunk.css",
+    "static/js/main.d3728b73.chunk.js"
   ]
 }
