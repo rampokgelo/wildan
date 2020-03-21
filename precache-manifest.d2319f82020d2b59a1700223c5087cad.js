@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "335b497103be6da06df9eb87f2043ca5",
+    "revision": "c6030b9292dcbccc06492793e710f614",
     "url": "/wildan/index.html"
   },
   {
-    "revision": "9873640516e6bfde933c",
+    "revision": "c79863fa1ae6687699de",
     "url": "/wildan/static/css/main.82bea3d2.chunk.css"
   },
   {
-    "revision": "2f9101927e4d7744a86f",
-    "url": "/wildan/static/js/2.a5d2de6c.chunk.js"
+    "revision": "d3b5ee516036d8b05f34",
+    "url": "/wildan/static/js/2.150d1c8a.chunk.js"
   },
   {
-    "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/wildan/static/js/2.a5d2de6c.chunk.js.LICENSE"
+    "revision": "6c46089e713fdf01ec7e89132bc85450",
+    "url": "/wildan/static/js/2.150d1c8a.chunk.js.LICENSE"
   },
   {
-    "revision": "9873640516e6bfde933c",
-    "url": "/wildan/static/js/main.0abecdb1.chunk.js"
+    "revision": "c79863fa1ae6687699de",
+    "url": "/wildan/static/js/main.7af4babe.chunk.js"
   },
   {
     "revision": "060e5b37ad32dff882ef",
