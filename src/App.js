@@ -1,8 +1,17 @@
 import React from "react";
 import "./App.css";
 import "./scss/corestyle.scss";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useRouteMatch
+} from "react-router-dom";
 import HomeScreen from "./component/HomeScreen";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import AboutScreen from "./component/AboutScreen";
+import WorkScreen from "./component/WorkScreen";
+import ContactScreen from "./component/ContactScreen";
 
 function App() {
   return (
@@ -14,27 +23,11 @@ function App() {
               <a className="navbar-brand" href="/">
                 Brand
               </a>
-              <ul className="list-unstyled">
-                <li className="nav-item">
-                  <Link className="nav-link" to="/">
-                    Home
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/about">
-                    About
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/work">
-                    Work
-                  </Link>
-                </li>
-                <li className="nav-item">
-                  <Link className="nav-link" to="/contact">
-                    Contact
-                  </Link>
-                </li>
+              <ul className="nav-side">
+                <MainMenu activeOnlyWhenExact={true} to="/" label="Home" />
+                <MainMenu to="/about" label="About" />
+                <MainMenu to="/work" label="Work" />
+                <MainMenu to="/contact" label="Contact" />
               </ul>
             </div>
             <div className="posrel navbar-footer">
@@ -42,13 +35,25 @@ function App() {
                 © 2019,Brand Co. All rights reserved.
               </div>
               <div className="sosmed">
-                <a target="_blank" rel="noopener noreferrer" href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73">
-                  <i className="fa fa-facebook-square"/>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73"
+                >
+                  <i className="fa fa-facebook-square" />
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73"
+                >
                   <i className="fa fa-linkedin-square" />
                 </a>
-                <a target="_blank" rel="noopener noreferrer" href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73"
+                >
                   <i className="fa fa-angellist" />
                 </a>
               </div>
@@ -68,36 +73,41 @@ function App() {
           </button>
         </nav>
         <div className="wrapper">
-          <Switch>
-            <Route path="/contact">
-              <Contact />
-            </Route>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/work">
-              <Work />
-            </Route>
-            <Route path="/">
-              <HomeScreen />
-            </Route>
-          </Switch>
+          <div className="container-fluid">
+            <Switch>
+              <Route path="/contact">
+                <ContactScreen />
+              </Route>
+              <Route path="/work">
+                <WorkScreen />
+              </Route>
+              <Route path="/about">
+                <AboutScreen />
+              </Route>
+              <Route path="/">
+                <HomeScreen />
+              </Route>
+            </Switch>
+          </div>
         </div>
       </div>
     </Router>
   );
 }
 
-function About() {
-  return <h2>About</h2>;
-}
+function MainMenu({ label, to, activeOnlyWhenExact }) {
+  let match = useRouteMatch({
+    path: to,
+    exact: activeOnlyWhenExact
+  });
 
-function Work() {
-  return <h2>Work</h2>;
-}
-
-function Contact() {
-  return <h2>Contact</h2>;
+  return (
+    <li className={`nav-item ${match ? "active" : ""}`}>
+      <Link className="nav-link" to={to}>
+        {label}
+      </Link>
+    </li>
+  );
 }
 
 export default App;
