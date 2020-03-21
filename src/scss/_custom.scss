@@ -25,6 +25,7 @@
     li {
       &.active {
         a {
+          padding-left: 10px;
           &::before {
             content: "";
             width: 70px;
@@ -37,8 +38,9 @@
         padding-top: $spacer;
         padding-bottom: $spacer;
         position: relative;
+        @include transition(padding-left 0.3s ease-in-out);
         &::before {
-          @include transition(all 0.3s ease-in-out);
+          @include transition(width 0.3s ease-in-out);
           content: "";
           z-index: -1;
           height: 1px;
@@ -47,9 +49,10 @@
           position: absolute;
           left: -$spacer*1.5;
           top: 50%;
-          @include translate(0, -45%);
+          @include translate(0, 50%);
         }
         &:hover {
+          padding-left: 10px;
           &::before {
             width: 70px;
           }
@@ -93,6 +96,14 @@
     font-size: $font-size-base * 7;
     font-weight: 900;
     text-transform: uppercase;
+    position: relative;
+    img{
+      position: absolute;
+      right: -$spacer*3;
+      top: -$spacer*3;
+      width: 300px;
+      z-index: -1;
+    }
   }
 }
 section {
@@ -102,6 +113,7 @@ section {
 .title {
   position: relative;
   > span {
+    display: inline-block;
     background-color: $gray-900;
     position: relative;
     z-index: 2;

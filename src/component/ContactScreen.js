@@ -4,27 +4,24 @@ class ContactScreen extends React.Component {
   render() {
     return (
       <React.Fragment>
-          <section>
-            <div className="row">
-              <div className="col-12 col-sm-4">
-                <h3 className="title">
-                  <span>Contact</span>
-                </h3>
-              </div>
+        <section>
+          <div className="row">
+            <div className="col-12 col-sm-8">
+              <h1 className="title">
+                <span>Get in touch</span>
+              </h1>
+            </div>
+          </div>
+          <div className="row py-5">
+              <div className="col-12 col-sm-4" />
               <div className="col-12 col-sm-8">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
+              <p>
+                Ready in working together, grab a coffee or simply say hello?
+                <br/>Awesome! Let's get in touch !
+              </p>
               </div>
             </div>
-          </section>
+        </section>
       </React.Fragment>
     );
   }

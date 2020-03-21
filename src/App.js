@@ -21,7 +21,8 @@ function App() {
           <div className="wrapper-nav">
             <div>
               <a className="navbar-brand" href="/">
-                Brand
+                <p>Wildan Zulkarnaen</p>
+                <img src={require("./images/wz-logo.svg")} alt="wz logo"/>
               </a>
               <ul className="nav-side">
                 <MainMenu activeOnlyWhenExact={true} to="/" label="Home" />
@@ -32,7 +33,7 @@ function App() {
             </div>
             <div className="posrel navbar-footer">
               <div className="copyright">
-                © 2019,Brand Co. All rights reserved.
+                ©WZ. All rights reserved.
               </div>
               <div className="sosmed">
                 <a
@@ -63,11 +64,6 @@ function App() {
           <button
             className="navbar-toggler"
             type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
           >
             <span className="navbar-toggler-icon"></span>
           </button>

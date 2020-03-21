@@ -6,11 +6,14 @@ class WorkScreen extends React.Component {
       <React.Fragment>
           <section>
             <div className="row">
-              <div className="col-12 col-sm-4">
-                <h3 className="title">
-                  <span>Work</span>
-                </h3>
+              <div className="col-12 col-sm-8">
+                <h1 className="title">
+                  <span>WORK I LOVE<br/> TO SHARE.</span>
+                </h1>
               </div>
+            </div>
+            <div className="row py-5">
+              <div className="col-12 col-sm-4" />
               <div className="col-12 col-sm-8">
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
