@@ -47,7 +47,7 @@
           width: 0;
           background-color: $primary;
           position: absolute;
-          left: -$spacer*1.5;
+          left: -$spacer * 1.5;
           top: 50%;
           @include translate(0, 50%);
         }
@@ -97,10 +97,10 @@
     font-weight: 900;
     text-transform: uppercase;
     position: relative;
-    img{
+    img {
       position: absolute;
-      right: -$spacer*3;
-      top: -$spacer*3;
+      right: -$spacer * 3;
+      top: -$spacer * 3;
       width: 300px;
       z-index: -1;
     }
@@ -131,16 +131,29 @@ section {
     height: 1px;
   }
 }
-.artwork {
-  display: flex;
-  flex-wrap: wrap;
+.artworks {
   .artwork-thumb {
     border: solid 1px $gray-900;
     display: block;
+  }
+  img {
+    width: 100%;
   }
 }
 .finalart {
   color: $gray-900;
   margin: auto;
   width: 700px;
+}
+.showcase{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  min-height: 100%;
+  background-color: $gray-900;
+  z-index: 1020;
+  overflow-y: auto;
 }

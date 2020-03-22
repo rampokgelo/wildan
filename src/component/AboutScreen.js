@@ -8,25 +8,28 @@ class AboutScreen extends React.Component {
           <div className="row">
             <div className="col-12 col-sm-8">
               <h1 className="title">
-                <span>get to know more <br/>about me</span>
+                <span>
+                  get to know more <br />
+                  about me
+                </span>
               </h1>
             </div>
           </div>
           <div className="row py-5">
-              <div className="col-12 col-sm-4" />
-              <div className="col-12 col-sm-8">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-              </div>
+            <div className="col-12 col-sm-4" />
+            <div className="col-12 col-sm-8">
+              <p>
+                Hello, my name is Wildan Zulkarnaen and I am a UI/UX designer or
+                Product Designer.
+                <br /> The approach for each graphic work derives from research,
+                a design method that is developed on the needs of the individual
+                project. I focus on visual communication for private and public
+                organizations: from brand and corporate design to publishing &
+                print media, visual identities for exhibitions and cultural
+                events.
+              </p>
             </div>
+          </div>
         </section>
       </React.Fragment>
     );
