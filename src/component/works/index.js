@@ -8,7 +8,7 @@ import {
   useLocation,
   useParams
 } from "react-router-dom";
-import {WORKIMAGES} from './WorksData';
+import { WORKIMAGES } from "./WorksData";
 
 // This example shows how to render two different screens
 // (or the same screen in a different context) at the same URL,
@@ -53,7 +53,11 @@ function ModalSwitch() {
 }
 
 function Thumbnail({ images, title }) {
-  return <img src={images} alt={title} className="img-fluid" />;
+  return (
+    <div className="wrapper-thumb">
+      <img src={images} alt={title} className="img-fluid" />
+    </div>
+  );
 }
 
 function ShowCase({ showcase, title }) {
@@ -64,7 +68,7 @@ function Gallery() {
   let location = useLocation();
 
   return (
-    <div className="artworks row no-gutters py-5">
+    <div className="artworks row py-5">
       {WORKIMAGES.map(i => (
         <Link
           key={i.id}
@@ -74,10 +78,11 @@ function Gallery() {
             // the `background` in location state.
             state: { background: location }
           }}
-          className="col-12 col-sm-4 col-md-3"
+          className="col-12 col-sm-4 col-md-3 artwork-thumb"
         >
           <Thumbnail images={i.images} />
-          <p>{i.title}</p>
+          <h5>{i.title}</h5>
+          <p>{i.category}</p>
         </Link>
       ))}
     </div>
@@ -111,16 +116,20 @@ function Modal() {
   };
 
   return (
-    <div
-      onClick={back}
-      className="showcase"
-    >
-      <div>
-        <h1 className="text-body">{image.title}</h1>
-        <ShowCase showcase={image.showcase} />
-        <button type="button" onClick={back}>
-          Close
-        </button>
+    <div className="showcase">
+      <div className="container-showcase">
+        <div className="py-3">
+          <button className="btn btn-link" type="button" onClick={back}>
+            <i className="fa fa-arrow-left" aria-hidden="true" />
+          </button>
+        </div>
+        <div className="showcase-card">
+          <div className="showcase-heading">
+            <h1>{image.title}</h1>
+            <p>{image.desc}</p>
+          </div>
+          <ShowCase showcase={image.showcase} />
+        </div>
       </div>
     </div>
   );
