@@ -18,7 +18,7 @@ class AboutScreen extends React.Component {
           <div className="row py-5">
             <div className="col-12 col-sm-4" />
             <div className="col-12 col-sm-8">
-              <p>
+              <p className="text-white-50">
                 Hello, my name is Wildan Zulkarnaen and I am a UI/UX designer or
                 Product Designer.
                 <br /> The approach for each graphic work derives from research,

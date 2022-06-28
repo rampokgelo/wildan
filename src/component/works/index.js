@@ -78,11 +78,11 @@ function Gallery() {
             // the `background` in location state.
             state: { background: location }
           }}
-          className="col-12 col-sm-4 col-md-3 artwork-thumb"
+          className="col-12 col-sm-6 col-md-4 artwork-thumb"
         >
-          <Thumbnail images={i.images} />
           <h5>{i.title}</h5>
           <p>{i.category}</p>
+          <Thumbnail images={i.images} />
         </Link>
       ))}
     </div>
