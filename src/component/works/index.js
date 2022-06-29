@@ -80,8 +80,8 @@ function Gallery() {
           }}
           className="col-12 col-sm-6 col-md-4 artwork-thumb"
         >
-          <h5>{i.title}</h5>
-          <p>{i.category}</p>
+          <h5 className="mb-0">{i.title}</h5>
+          <p className="mb-2">{i.category}</p>
           <Thumbnail images={i.images} />
         </Link>
       ))}
@@ -117,12 +117,12 @@ function Modal() {
 
   return (
     <div className="showcase">
+      <div className="py-3 px-3 sticky-top back-showcase">
+        <button className="btn btn-danger" type="button" onClick={back}>
+          <i className="fa fa-arrow-left" aria-hidden="true" />
+        </button>
+      </div>
       <div className="container-showcase">
-        <div className="py-3">
-          <button className="btn btn-link" type="button" onClick={back}>
-            <i className="fa fa-arrow-left" aria-hidden="true" />
-          </button>
-        </div>
         <div className="showcase-card">
           <div className="showcase-heading">
             <h1>{image.title}</h1>
