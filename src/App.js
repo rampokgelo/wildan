@@ -18,12 +18,12 @@ function App() {
     <Router>
       <div>
         <nav className="navbar navbar-main">
+          <a className="navbar-brand" href="/">
+            <p className="sr-only">Wildan Zulkarnaen</p>
+            <img src={require("./images/wz-logo.svg")} alt="wz logo" />
+          </a>
           <div className="wrapper-nav">
             <div>
-              <a className="navbar-brand" href="/">
-                <p>Wildan Zulkarnaen</p>
-                <img src={require("./images/wz-logo.svg")} alt="wz logo"/>
-              </a>
               <ul className="nav-side">
                 <MainMenu activeOnlyWhenExact={true} to="/" label="Home" />
                 <MainMenu to="/about" label="About" />
@@ -65,7 +65,9 @@ function App() {
             className="navbar-toggler"
             type="button"
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon" />
+            <span className="navbar-toggler-icon" />
+            <span className="navbar-toggler-icon" />
           </button>
         </nav>
         <div className="wrapper">

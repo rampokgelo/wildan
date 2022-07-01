@@ -3,14 +3,8 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 200 140" style="enable-background:new 0 0 200 140;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FF0000;}
-	.st1{fill:#FFFFFF;}
+	.st0{fill:#FFFFFF;}
 </style>
-<g>
-	<g>
-		<polygon class="st0" points="31.8,0 -0.1,0 -0.1,108.1 -0.1,140 31.8,140 50.8,140 54.1,108.1 31.8,108.1 		"/>
-		<polygon class="st0" points="168.2,0 168.2,108.1 149.2,108.1 145.9,140 168.2,140 200.1,140 200.1,108.1 200.1,0 		"/>
-	</g>
-	<polygon class="st1" points="99.2,108.1 116.6,0 56.6,0 53.3,31.9 81.4,31.9 64,140 134,140 137.3,108.1 	"/>
-</g>
+<path class="st0" d="M27.5,14l52.2,112H52.2L0,14H27.5z M36.3,14l52.2,112H116L63.8,14H36.3z M172.3,14l-52.2,112h27.5l52.2-112
+	H172.3z M169.2,101l-11.7,25H200v-25H169.2z M150.7,39l11.6-25h-42.5v25H150.7z"/>
 </svg>
