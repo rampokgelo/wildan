@@ -4,7 +4,7 @@ export const WORKIMAGES = [
     title: "FriendlyDodoOy",
     category:"Web design",
     images: require("../../images/porto/friendlydodooy.jpg"),
-    showcase: require("../../images/porto/assalam-showcase.jpg"),
+    showcase: require("../../images/porto/friendlydodooy-showcase.jpg"),
     desc:"Full scale project colloborate with my firend, Assalam is muslim application to strengthen ukhuwah, worship, service, communication as well as the economy of pilgrims and Muslims in general. "
   },
   {

@@ -36,13 +36,13 @@ function App() {
                 ©WZ. All rights reserved.
               </div>
               <div className="sosmed">
-                <a
+                {/* <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73"
                 >
                   <i className="fa fa-facebook-square" />
-                </a>
+                </a> */}
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function App() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73"
+                  href="https://angel.co/u/wildan-zulkarnaen"
                 >
                   <i className="fa fa-angellist" />
                 </a>

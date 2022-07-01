@@ -40,19 +40,20 @@
 // Used for brand, project, or site names.
 
 .navbar-brand {
-  display: inline-block;
+  display: block;
   padding-top: $navbar-brand-padding-y;
   padding-bottom: $navbar-brand-padding-y;
-  margin-right: $navbar-padding-x;
+  // margin-right: $navbar-padding-x;
   @include font-size($navbar-brand-font-size);
   line-height: inherit;
   white-space: nowrap;
+  text-align: center;
 
   @include hover-focus {
     text-decoration: none;
   }
   img{
-    width: 85px;
+    width: 80px;
   }
   p{
     font:0/0 a;
