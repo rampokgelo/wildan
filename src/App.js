@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./App.css";
 import "./scss/corestyle.scss";
 import {
@@ -14,6 +14,11 @@ import WorkScreen from "./component/WorkScreen";
 import ContactScreen from "./component/ContactScreen";
 
 function App() {
+  const [isOpen, setOpen] = useState("false");
+  const ToggleClass = () => {
+    setOpen(!isOpen); 
+   };
+
   return (
     <Router>
       <div>
@@ -22,7 +27,7 @@ function App() {
             <p className="sr-only">Wildan Zulkarnaen</p>
             <img src={require("./images/wz-logo.svg")} alt="wz logo" />
           </a>
-          <div className="wrapper-nav">
+          <div className={`wrapper-nav ${isOpen ? "" : "open" }`}>
             <div>
               <ul className="nav-side">
                 <MainMenu activeOnlyWhenExact={true} to="/" label="Home" />
@@ -62,8 +67,9 @@ function App() {
           </div>
 
           <button
-            className="navbar-toggler"
+            className={`navbar-toggler ${isOpen ? "" : "open" }`}
             type="button"
+            onClick={ToggleClass}
           >
             <span className="navbar-toggler-icon" />
             <span className="navbar-toggler-icon" />
