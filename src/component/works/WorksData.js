@@ -161,14 +161,6 @@ export const WORKIMAGES = [
   },
   {
     id: 20,
-    title: "Mytherapist",
-    category:"Mobile app",
-    images: require("../../images/porto/mytheraphist.jpg"),
-    showcase: require("../../images/porto/mytheraphist-showcase.jpg"),
-    desc:"An app which tell about your feeling everyday and then the app will calculate the problem to resolve bad feel"
-  },
-  {
-    id: 21,
     title: "Piciocchi Investments",
     category:"Brand design",
     images: require("../../images/porto/picio.jpg"),
@@ -176,7 +168,7 @@ export const WORKIMAGES = [
     desc:"Consulting finance company, their main target audience is high end class people"
   },
   {
-    id: 22,
+    id: 21,
     title: "QuieroUnCel",
     category:"Brand design",
     images: require("../../images/porto/quierouncel.png"),
@@ -184,7 +176,7 @@ export const WORKIMAGES = [
     desc:"Fun design and bright color is to make all class from target audience interesting with this brand"
   },
   {
-    id: 23,
+    id: 22,
     title: "Zombie",
     category:"Illustration",
     images: require("../../images/porto/zombie.jpg"),
@@ -192,7 +184,7 @@ export const WORKIMAGES = [
     desc:"Just for fun, my passion suddenly come up to create vector illustration design"
   },
   {
-    id: 24,
+    id: 23,
     title: "World at War",
     category:"Digital imaging",
     images: require("../../images/porto/war.jpg"),

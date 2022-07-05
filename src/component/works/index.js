@@ -55,13 +55,13 @@ function ModalSwitch() {
 function Thumbnail({ images, title }) {
   return (
     <div className="wrapper-thumb">
-      <img src={images} alt={title} className="img-fluid" />
+      <img src={images} alt={title} className="img-fluid" loading="lazy" />
     </div>
   );
 }
 
 function ShowCase({ showcase, title }) {
-  return <img src={showcase} alt={title} className="img-fluid" />;
+  return <img src={showcase} alt={title} className="img-fluid" loading="lazy" />;
 }
 
 function Gallery() {
