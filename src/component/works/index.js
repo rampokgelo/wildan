@@ -61,7 +61,11 @@ function Thumbnail({ images, title }) {
 }
 
 function ShowCase({ showcase, title }) {
-  return <img src={showcase} alt={title} className="img-fluid" loading="lazy" />;
+  return (
+    <>
+      <img src={showcase} alt={title} className="img-fluid" loading="lazy" />
+    </>
+  );
 }
 
 function Gallery() {
