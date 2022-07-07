@@ -19,14 +19,13 @@ class AboutScreen extends React.Component {
             <div className="col-12 col-sm-4" />
             <div className="col-12 col-sm-8">
               <p className="text-white-50">
-                Hello, my name is Wildan Zulkarnaen and I am a UI/UX designer or
-                Product Designer.
-                <br /> The approach for each graphic work derives from research,
+                Hello, my name is Wildan Zulkarnaen.
+                <br /> The approach for each graphic &amp; product work derives from research,
                 a design method that is developed on the needs of the individual
                 project. I focus on visual communication for private and public
-                organizations: from brand and corporate design to publishing &
+                organizations, from brand and corporate design to publishing &amp;
                 print media, visual identities for exhibitions and cultural
-                events.
+                events, product design from multiple users persona.
               </p>
             </div>
           </div>
