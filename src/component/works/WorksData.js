@@ -5,7 +5,7 @@ export const WORKIMAGES = [
     category:"Product, Web, and Brand Design",
     images: require("../../images/porto/awanio.jpg"),
     showcase: require("../../images/porto/awanio-showcase.jpg"),
-    desc:"Full scale project colloborate with my firend, Assalam is muslim application to strengthen ukhuwah, worship, service, communication as well as the economy of pilgrims and Muslims in general. "
+    desc:"Awanio is Saas application that manage  IT Infrastructure: Servers, CPU, Memory, Storage, and Network, across multi-environment and enhance the cloud experience from developer to the end customer."
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ export const WORKIMAGES = [
     category:"Web design",
     images: require("../../images/porto/friendlydodooy.jpg"),
     showcase: require("../../images/porto/friendlydodooy-showcase.jpg"),
-    desc:"Full scale project colloborate with my firend, Assalam is muslim application to strengthen ukhuwah, worship, service, communication as well as the economy of pilgrims and Muslims in general. "
+    desc:"A web design for software agency in Finland with cartoon theme and colorful."
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const WORKIMAGES = [
     category:"Product and Brand Design",
     images: require("../../images/porto/assalam.jpg"),
     showcase: require("../../images/porto/assalam-showcase.jpg"),
-    desc:"Full scale project colloborate with my firend, Assalam is muslim application to strengthen ukhuwah, worship, service, communication as well as the economy of pilgrims and Muslims in general. "
+    desc:"Full scale project colloborate with my firends, Assalam is muslim application to strengthen ukhuwah, worship, service, communication as well as the economy of pilgrims and Muslims in general. "
   },
   {
     id: 3,
