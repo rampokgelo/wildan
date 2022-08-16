@@ -25,7 +25,7 @@ class AboutScreen extends React.Component {
                 project. I focus on visual communication for private and public
                 organizations, from brand and corporate design to publishing &amp;
                 print media, visual identities for exhibitions and cultural
-                events, product design from multiple users persona.
+                events, research and translating into product design from multiple users persona.
               </p>
             </div>
           </div>
