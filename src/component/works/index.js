@@ -6,7 +6,7 @@ import {
   Link,
   useHistory,
   useLocation,
-  useParams
+  useParams,
 } from "react-router-dom";
 import { WORKIMAGES } from "./WorksData";
 
@@ -63,7 +63,9 @@ function Thumbnail({ images, title }) {
 function ShowCase({ showcase, title }) {
   return (
     <>
-      <img src={showcase} alt={title} className="img-fluid" loading="lazy" />
+      <div className="text-center">
+        <img src={showcase} alt={title} className="img-fluid" loading="lazy" />
+      </div>
     </>
   );
 }
@@ -73,14 +75,14 @@ function Gallery() {
 
   return (
     <div className="artworks row py-5">
-      {WORKIMAGES.map(i => (
+      {WORKIMAGES.map((i) => (
         <Link
           key={i.id}
           to={{
             pathname: `/work/${i.id}`,
             // This is the trick! This link sets
             // the `background` in location state.
-            state: { background: location }
+            state: { background: location },
           }}
           className="col-12 col-sm-6 col-md-4 artwork-thumb"
         >
@@ -114,7 +116,7 @@ function Modal() {
 
   if (!image) return null;
 
-  let back = e => {
+  let back = (e) => {
     e.stopPropagation();
     history.goBack();
   };
