@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import "./App.css";
 import "./scss/corestyle.scss";
 import {
@@ -6,7 +6,7 @@ import {
   Switch,
   Route,
   Link,
-  useRouteMatch
+  useRouteMatch,
 } from "react-router-dom";
 import HomeScreen from "./component/HomeScreen";
 import AboutScreen from "./component/AboutScreen";
@@ -16,8 +16,8 @@ import ContactScreen from "./component/ContactScreen";
 function App() {
   const [isOpen, setOpen] = useState("false");
   const ToggleClass = () => {
-    setOpen(!isOpen); 
-   };
+    setOpen(!isOpen);
+  };
 
   return (
     <Router>
@@ -27,7 +27,7 @@ function App() {
             <p className="sr-only">Wildan Zulkarnaen</p>
             <img src={require("./images/wz-logo.svg")} alt="wz logo" />
           </a>
-          <div className={`wrapper-nav ${isOpen ? "" : "open" }`}>
+          <div className={`wrapper-nav ${isOpen ? "" : "open"}`}>
             <div>
               <ul className="nav-side">
                 <MainMenu activeOnlyWhenExact={true} to="/" label="Home" />
@@ -37,9 +37,7 @@ function App() {
               </ul>
             </div>
             <div className="posrel navbar-footer">
-              <div className="copyright">
-                ©WZ. All rights reserved.
-              </div>
+              <div className="copyright">©WZ. All rights reserved.</div>
               <div className="sosmed">
                 {/* <a
                   target="_blank"
@@ -49,25 +47,34 @@ function App() {
                   <i className="fa fa-facebook-square" />
                 </a> */}
                 <a
+                  className="d-inline-flex"
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://id.linkedin.com/in/wildan-zulkarnaen-0627bb73"
                 >
-                  <i className="fa fa-linkedin-square" />
+                  <img
+                    src="/icon/linkedin-white.svg"
+                    style={{ width: "24px", height: "auto" }}
+                    alt="icon linkedin"
+                  />
                 </a>
-                <a
+                {/* <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://angel.co/u/wildan-zulkarnaen"
                 >
-                  <i className="fa fa-angellist" />
-                </a>
+                  <img
+                    src="/icon/wellfound-white.svg"
+                    style={{ width: "24px" }}
+                    alt="icon wellfound"
+                  />
+                </a> */}
               </div>
             </div>
           </div>
 
           <button
-            className={`navbar-toggler ${isOpen ? "" : "open" }`}
+            className={`navbar-toggler ${isOpen ? "" : "open"}`}
             type="button"
             onClick={ToggleClass}
           >
@@ -102,7 +109,7 @@ function App() {
 function MainMenu({ label, to, activeOnlyWhenExact }) {
   let match = useRouteMatch({
     path: to,
-    exact: activeOnlyWhenExact
+    exact: activeOnlyWhenExact,
   });
 
   return (

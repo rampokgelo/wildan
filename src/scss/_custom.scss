@@ -167,6 +167,7 @@
       color: $gray-600;
     }
     .sosmed {
+      display: flex;
       a {
         padding: $spacer/2;
         font-size: $font-size-base * 1.5;
@@ -288,7 +289,7 @@ section {
   width: 900px;
   margin: auto;
   .showcase-card {
-    margin: 0 auto ($spacer * 3);
+    margin: 0 auto ($spacer * 4);
     background-color: $gray-800;
     @include box-shadow(15px 15px 0 rgba(0, 0, 0, 0.15));
   }
@@ -312,8 +313,9 @@ section {
   background-color: rgba($secondary, 0.8);
 }
 .btn-contact {
+  display: inline-flex;
   background-color: $gray-700;
-  padding: $spacer ($spacer * 2);
+  padding: $spacer;
   font-size: calc($font-size-base * 3);
   color: $white;
   transition: ease-in-out 0.3s;

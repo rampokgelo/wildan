@@ -124,8 +124,13 @@ function Modal() {
   return (
     <div className="showcase">
       <div className="py-3 px-3 sticky-top back-showcase">
-        <button className="btn btn-danger" type="button" onClick={back}>
-          <i className="fa fa-arrow-left" aria-hidden="true" />
+        <button className="btn p-3 d-inline-flex" type="button" onClick={back}>
+          <img
+            src="/icon/arrow-white.svg"
+            style={{ width: "24px", height: "auto" }}
+            alt="icon linkedin"
+          />
+          <span className="ml-2">Back</span>
         </button>
       </div>
       <div className="container-showcase">
