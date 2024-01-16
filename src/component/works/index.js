@@ -64,7 +64,7 @@ function ShowCase({ showcase, title }) {
   return (
     <>
       <div className="text-center">
-        <img src={showcase} alt={title} className="img-fluid" loading="lazy" />
+        <img src={showcase} alt={title} style={{width:"100%"}} loading="lazy" />
       </div>
     </>
   );

@@ -203,25 +203,25 @@ export const WORKIMAGES = [
     id: 25,
     title: "A**...",
     category:"Product, Web, Mobile app, and Brand Design",
-    images: require("../../images/porto/ongoing.svg"),
+    images: require("../../images/work-in-progress.gif"),
     showcase: require("../../images/porto/excited.gif"),
-    desc:"Project still on going with happy face for everyone :)"
+    desc:"Project still on going :)"
   },
   {
     id: 26,
     title: "99Fr*****...",
     category:"Product, Web, and Mobile app",
-    images: require("../../images/porto/ongoing.svg"),
+    images: require("../../images/work-in-progress.gif"),
     showcase: require("../../images/porto/excited.gif"),
-    desc:"Project still on going with happy face for everyone :)"
+    desc:"Project still on going :)"
   },
   {
     id: 27,
     title: "Jus******...",
     category:"Product, Web, and Mobile app",
-    images: require("../../images/porto/ongoing.svg"),
+    images: require("../../images/work-in-progress.gif"),
     showcase: require("../../images/porto/excited.gif"),
-    desc:"Project still on going with happy face for everyone :)"
+    desc:"Project still on going :)"
   },
 ];
 
