@@ -10,11 +10,16 @@ class HomeScreen extends React.Component {
             <br />
             There.
             <img
-                className="animated infinite wobble slow"
-                src={require("./../images/hand.svg")}
-                alt="hi"
-              />
+              className="animated infinite wobble slow"
+              src={require("./../images/hand.svg")}
+              alt="hi"
+            />
           </h1>
+        </div>
+        <div className="scroll-animate-wrapper">
+          <div class="field">
+            <div class="mouse"></div>
+          </div>
         </div>
       </React.Fragment>
     );

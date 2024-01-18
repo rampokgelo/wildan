@@ -11,7 +11,7 @@ import {
 import HomeScreen from "./component/HomeScreen";
 import AboutScreen from "./component/AboutScreen";
 import WorkScreen from "./component/WorkScreen";
-import ContactScreen from "./component/ContactScreen";
+// import ContactScreen from "./component/ContactScreen";
 
 function App() {
   const [isOpen, setOpen] = useState("false");
@@ -30,10 +30,10 @@ function App() {
           <div className={`wrapper-nav ${isOpen ? "" : "open"}`}>
             <div>
               <ul className="nav-side">
-                <MainMenu activeOnlyWhenExact={true} to="/" label="Home" />
-                <MainMenu to="/about" label="About" />
+                <MainMenu activeOnlyWhenExact={true} to="/" label="About me" />
+                {/* <MainMenu to="/about" label="About" /> */}
                 <MainMenu to="/work" label="Work" />
-                <MainMenu to="/contact" label="Contact" />
+                {/* <MainMenu to="/contact" label="Contact" /> */}
               </ul>
             </div>
             <div className="posrel navbar-footer">
@@ -86,18 +86,19 @@ function App() {
         <div className="wrapper">
           <div className="container-fluid">
             <Switch>
-              <Route path="/contact">
+              {/* <Route path="/contact">
                 <ContactScreen />
-              </Route>
+              </Route> */}
               <Route path="/work">
                 <WorkScreen />
               </Route>
-              <Route path="/about">
-                <AboutScreen />
-              </Route>
               <Route path="/">
                 <HomeScreen />
+                <AboutScreen />
               </Route>
+              {/* <Route path="/">
+                <HomeScreen />
+              </Route> */}
             </Switch>
           </div>
         </div>

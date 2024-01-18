@@ -209,6 +209,7 @@
   @include media-breakpoint-down(sm) {
     h1 {
       font-size: $font-size-base * 5;
+      margin-top: -$spacer * 8;
       img {
         right: $spacer;
         top: $spacer;
@@ -220,11 +221,12 @@
 }
 section {
   min-height: 100vh;
-  padding: ($spacer * 4) 0;
+  padding: ($spacer * 5) 0;
 }
 .title {
   position: relative;
   font-weight: 900;
+  margin-bottom: $spacer*2;
   > span {
     display: inline-block;
     background-color: $gray-900;
@@ -325,4 +327,57 @@ section {
     color: $white;
     @include box-shadow(0 0 0 rgba(0, 0, 0, 0.15));
   }
+}
+
+.scroll-animate-wrapper {
+  position: absolute;
+  bottom: $spacer;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  .field {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-self: center;
+  }
+
+  .mouse {
+    width: 20px;
+    height: 40px;
+    border: 3px solid #fff;
+    border-radius: 30px;
+    position: relative;
+    &::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      position: absolute;
+      top: 5px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: $secondary;
+      border-radius: 50%;
+      opacity: 1;
+      animation: scroll 2s infinite;
+      -webkit-animation: scroll 2s infinite;
+    }
+  }
+
+  @keyframes scroll {
+    to {
+      opacity: 0;
+      top: 25px;
+    }
+  }
+
+  @-webkit-keyframes scroll {
+    to {
+      opacity: 0;
+      top: 25px;
+    }
+  }
+}
+.text-white-70{
+  color: rgba($white, 0.7);
 }

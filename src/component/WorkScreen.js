@@ -19,7 +19,7 @@ class WorkScreen extends React.Component {
           <div className="row py-5">
             <div className="col-12 col-sm-4" />
             <div className="col-12 col-sm-8">
-              <p className="text-white-50">
+              <p className="text-white-70">
                 Concepts, brands, web, social and more. Discover how i have helped these clients to find the sweet spot between bold, creative and strategic marketing.
               </p>
             </div>
