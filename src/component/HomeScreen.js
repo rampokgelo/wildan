@@ -15,10 +15,10 @@ class HomeScreen extends React.Component {
               alt="hi"
             />
           </h1>
-        </div>
-        <div className="scroll-animate-wrapper">
-          <div class="field">
-            <div class="mouse"></div>
+          <div className="scroll-animate-wrapper">
+            <div class="field">
+              <div class="mouse"></div>
+            </div>
           </div>
         </div>
       </React.Fragment>
