@@ -18,7 +18,7 @@ class AboutScreen extends React.Component {
           <div className="row py-5">
             <div className="col-12 col-sm-5">
               <img
-                className="img-fluid rounded"
+                className="img-fluid rounded mb-4"
                 src={require("../images/wildan.jpg")}
                 alt="Wildan"
               />

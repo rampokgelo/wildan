@@ -210,7 +210,7 @@
   @include media-breakpoint-down(sm) {
     h1 {
       font-size: $font-size-base * 5;
-      margin-top: -$spacer * 8;
+      margin-top: -$spacer * 10;
       img {
         right: $spacer;
         top: $spacer;
@@ -386,7 +386,7 @@ section {
     }
   }
   @include media-breakpoint-down(sm) {
-    bottom: $spacer*5;
+    bottom: $spacer*8;
   }
 }
 .text-white-70{
