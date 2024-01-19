@@ -42,12 +42,12 @@ function ModalSwitch() {
   return (
     <div>
       <Switch location={background || location}>
-        <Route path="/work" children={<Gallery />} />
-        <Route path="/work/:id" children={<ImageView />} />
+        <Route path="/projects" children={<Gallery />} />
+        <Route path="/projects/:id" children={<ImageView />} />
       </Switch>
 
       {/* Show the modal when a background page is set */}
-      {background && <Route path="/work/:id" children={<Modal />} />}
+      {background && <Route path="/projects/:id" children={<Modal />} />}
     </div>
   );
 }
@@ -79,7 +79,7 @@ function Gallery() {
         <Link
           key={i.id}
           to={{
-            pathname: `/work/${i.id}`,
+            pathname: `/projects/${i.id}`,
             // This is the trick! This link sets
             // the `background` in location state.
             state: { background: location },
@@ -130,7 +130,7 @@ function Modal() {
             style={{ width: "24px", height: "auto" }}
             alt="icon linkedin"
           />
-          <span className="ml-2">All works</span>
+          <span className="ml-2">All projects</span>
         </button>
       </div>
       <div className="container-showcase">

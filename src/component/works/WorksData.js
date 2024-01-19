@@ -1,14 +1,14 @@
 export const WORKIMAGES = [
+  // {
+  //   id: 0,
+  //   title: "World at War",
+  //   category:"Digital Imaging",
+  //   images: require("../../images/porto/war.jpg"),
+  //   showcase: require("../../images/porto/war-showcase.jpg"),
+  //   desc:"Just for fun"
+  // },
   {
     id: 0,
-    title: "World at War",
-    category:"Digital Imaging",
-    images: require("../../images/porto/war.jpg"),
-    showcase: require("../../images/porto/war-showcase.jpg"),
-    desc:"Just for fun"
-  },
-  {
-    id: 1,
     title: "Zombie",
     category:"Illustration",
     images: require("../../images/porto/zombie.jpg"),
@@ -16,7 +16,7 @@ export const WORKIMAGES = [
     desc:"Just for fun, my passion suddenly come up to create vector illustration design"
   },
   {
-    id: 2,
+    id: 1,
     title: "QuieroUnCel",
     category:"Brand design",
     images: require("../../images/porto/quierouncel.png"),
@@ -24,7 +24,7 @@ export const WORKIMAGES = [
     desc:"Fun design and bright color is to make all class from target audience interesting with this brand"
   },
   {
-    id: 3,
+    id: 2,
     title: "Piciocchi Investments",
     category:"Brand design",
     images: require("../../images/porto/picio.jpg"),
@@ -32,7 +32,7 @@ export const WORKIMAGES = [
     desc:"Consulting finance company, their main target audience is high end class people"
   },
   {
-    id: 4,
+    id: 3,
     title: "Monster",
     category:"Character design",
     images: require("../../images/porto/monster.jpg"),
@@ -40,7 +40,7 @@ export const WORKIMAGES = [
     desc:"Prototype for animation character popview"
   },
   {
-    id: 5,
+    id: 4,
     title: "JournalWays",
     category:"Web design",
     images: require("../../images/porto/journalway.jpg"),
@@ -48,7 +48,7 @@ export const WORKIMAGES = [
     desc:"Web application to share your diary with people you know and you love with, then you can print out album foto via this web application."
   },
   {
-    id: 6,
+    id: 5,
     title: "Fit Team",
     category:"Brand design",
     images: require("../../images/porto/fitteam.jpg"),
@@ -56,7 +56,7 @@ export const WORKIMAGES = [
     desc:"Logo concept is taken from initial brand FT and main brand identity is using cutting shape in left top of side every stationary"
   },
   {
-    id: 7,
+    id: 6,
     title: "DB Interior",
     category:"Brand design",
     images: require("../../images/porto/dbinterior.jpg"),
@@ -64,7 +64,7 @@ export const WORKIMAGES = [
     desc:"Elegant concept shape, color and sophicasted finishing printing make the name card really love to keep by DB client"
   },
   {
-    id: 8,
+    id: 7,
     title: "Clearbrook & Co.",
     category:"Brand design",
     images: require("../../images/porto/clearbrook.jpg"),
@@ -72,7 +72,7 @@ export const WORKIMAGES = [
     desc:"A Finance Consulting company, the concept is from how money can grow like a tree."
   },
   {
-    id: 9,
+    id: 8,
     title: "Bunbury Ceiling",
     category:"Brand design",
     images: require("../../images/porto/bunbury.jpg"),
@@ -80,7 +80,7 @@ export const WORKIMAGES = [
     desc:"Stationary main design is using logo shape as part main brand company with two side print design, the visual of name card make it more easy to read."
   },
   {
-    id: 10,
+    id: 9,
     title: "Barnival Indonesia",
     category:"Web design",
     images: require("../../images/porto/barni.jpg"),
@@ -88,7 +88,7 @@ export const WORKIMAGES = [
     desc:"This project collaborate with my friends to create awesome responsive website and CMS admin for the website"
   },
   {
-    id: 11,
+    id: 10,
     title: "Pop movie",
     category:"Character design",
     images: require("../../images/porto/popmovie.jpg"),
@@ -96,7 +96,7 @@ export const WORKIMAGES = [
     desc:"Character design for short movie animation"
   },
   {
-    id: 12,
+    id: 11,
     title: "100 Amigos",
     category:"Character design",
     images: require("../../images/porto/amigos.jpg"),
@@ -104,7 +104,7 @@ export const WORKIMAGES = [
     desc:"The idea for this mascot is combined from superhero and funny mexican guy."
   },
   {
-    id: 13,
+    id: 12,
     title: "Es Teler 77",
     category:"Book menu",
     images: require("../../images/porto/77menu.jpg"),
@@ -112,7 +112,7 @@ export const WORKIMAGES = [
     desc:"Fun design and dynamic color from their brand, make kids more interesting with this book menu. Big visual design and typo make it easy for the elder to read the book"
   },
   {
-    id: 14,
+    id: 13,
     title: "Vengoz",
     category:"Web & Brand design",
     images: require("../../images/porto/vengoz.jpg"),
@@ -120,7 +120,7 @@ export const WORKIMAGES = [
     desc:"Redesign and rebranding website e-commerce website"
   },
   {
-    id: 15,
+    id: 14,
     title: "Top Test Prep",
     category:"Web design",
     images: require("../../images/porto/toptestprep.jpg"),
@@ -128,7 +128,7 @@ export const WORKIMAGES = [
     desc:"An online course for student"
   },
   {
-    id: 16,
+    id: 15,
     title: "SpeedELoans",
     category:"Web design",
     images: require("../../images/porto/speedeloans.jpg"),
@@ -136,7 +136,7 @@ export const WORKIMAGES = [
     desc:"An online loan money website."
   },
   {
-    id: 17,
+    id: 16,
     title: "Shop Rewards",
     category:"Web design",
     images: require("../../images/porto/shopreward.jpg"),
@@ -144,7 +144,7 @@ export const WORKIMAGES = [
     desc:"E-commerce site using colorfull concept"
   },
   {
-    id: 18,
+    id: 17,
     title: "RPM",
     category:"Web design",
     images: require("../../images/porto/rpm.jpg"),
@@ -152,7 +152,7 @@ export const WORKIMAGES = [
     desc:"RPM offers professional real estate services and solutions. Our divisions include commercial and residential real estate sales and leasing, property management services, real estate development, real estate investment and auction services."
   },
   {
-    id: 19,
+    id: 18,
     title: "iCashloans",
     category:"Mobile app",
     images: require("../../images/porto/icashloans.jpg"),
@@ -160,7 +160,7 @@ export const WORKIMAGES = [
     desc:"An online loan money mobile application. You just fill the form and then voila you can loan money up to USD 1000 in 2 minutes."
   },
   {
-    id: 20,
+    id: 19,
     title: "Zapper",
     category:"Web design",
     images: require("../../images/porto/zapper.jpg"),
@@ -168,7 +168,7 @@ export const WORKIMAGES = [
     desc:"Zapper product is QR code generator"
   },
   {
-    id: 21,
+    id: 20,
     title: "Personal Wedding",
     category:"Web design",
     images: require("../../images/porto/wc.jpg"),
@@ -176,7 +176,7 @@ export const WORKIMAGES = [
     desc:"Beautiful story about the groom and the bride. You can see and watch pre-wedding photo and video. Disney world concept make this site feel more than site, it's feel you read book about prince and princess falling in love."
   },
   {
-    id: 22,
+    id: 21,
     title: "Assalam",
     category:"Product and Brand Design",
     images: require("../../images/porto/assalam.jpg"),
@@ -184,7 +184,7 @@ export const WORKIMAGES = [
     desc:"Full scale project colloborate with my firends, Assalam is muslim application to strengthen ukhuwah, worship, service, communication as well as the economy of pilgrims and Muslims in general. "
   },
   {
-    id: 23,
+    id: 22,
     title: "FriendlyDodoOy",
     category:"Web design",
     images: require("../../images/porto/friendlydodooy.jpg"),
@@ -192,7 +192,7 @@ export const WORKIMAGES = [
     desc:"A web design for software agency in Finland with cartoon theme and colorful."
   },
   {
-    id: 24,
+    id: 23,
     title: "Awanio",
     category:"Product, Web, and Brand Design",
     images: require("../../images/porto/awanio.jpg"),
@@ -200,7 +200,7 @@ export const WORKIMAGES = [
     desc:"Awanio is Saas application that manage  IT Infrastructure: Servers, CPU, Memory, Storage, and Network, across multi-environment and enhance the cloud experience from developer to the end customer."
   },
   {
-    id: 25,
+    id: 24,
     title: "A**...",
     category:"Product, Web, Mobile app, and Brand Design",
     images: require("../../images/work-in-progress.gif"),
@@ -208,7 +208,7 @@ export const WORKIMAGES = [
     desc:"Project still on going :)"
   },
   {
-    id: 26,
+    id: 25,
     title: "99Fr*****...",
     category:"Product, Web, and Mobile app",
     images: require("../../images/work-in-progress.gif"),
@@ -216,7 +216,7 @@ export const WORKIMAGES = [
     desc:"Project still on going :)"
   },
   {
-    id: 27,
+    id: 26,
     title: "Jus******...",
     category:"Product, Web, and Mobile app",
     images: require("../../images/work-in-progress.gif"),

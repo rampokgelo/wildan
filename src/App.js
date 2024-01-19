@@ -32,7 +32,7 @@ function App() {
               <ul className="nav-side">
                 <MainMenu activeOnlyWhenExact={true} to="/" label="About me" />
                 {/* <MainMenu to="/about" label="About" /> */}
-                <MainMenu to="/work" label="Works" />
+                <MainMenu to="/projects" label="Projects" />
                 {/* <MainMenu to="/contact" label="Contact" /> */}
               </ul>
             </div>
@@ -89,7 +89,7 @@ function App() {
               {/* <Route path="/contact">
                 <ContactScreen />
               </Route> */}
-              <Route path="/work">
+              <Route path="/projects">
                 <WorkScreen />
               </Route>
               <Route path="/">
