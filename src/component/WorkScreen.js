@@ -10,7 +10,7 @@ class WorkScreen extends React.Component {
             <div className="col-12 col-sm-8">
               <h1 className="title">
                 <span>
-                  WORK I LOVE
+                  PROJECTS I LOVE
                   <br /> TO SHARE.
                 </span>
               </h1>

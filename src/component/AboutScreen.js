@@ -29,7 +29,7 @@ class AboutScreen extends React.Component {
               <p className="lead text-primary font-weight-bold">
                 I have experience more than 13 years, start from working at
                 biggest digital printing company in Southeast Asia, Singapore agency,
-                Australia parking startup, Social media startup and one of
+                Australia parking startup, social media startup and one of
                 biggest media in Indonesia startup.
               </p>
               <p className="text-white-70">
