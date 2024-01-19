@@ -16,7 +16,6 @@ class AboutScreen extends React.Component {
             </div>
           </div>
           <div className="row py-5">
-            <div className="col-12 col-sm-1" />
             <div className="col-12 col-sm-5">
               <img
                 className="img-fluid rounded"
@@ -24,18 +23,19 @@ class AboutScreen extends React.Component {
                 alt="Wildan"
               />
             </div>
+            <div className="col-12 col-sm-1" />
             <div className="col-12 col-sm-6">
-              <p className="text-white-70">
-                Hello, my name is Wildan Zulkarnaen.
+              <p className="text-white">Hello, my name is Wildan Zulkarnaen.</p>
+              <p className="lead text-primary font-weight-bold">
+                I have experience more than 13 years, start from working at
+                biggest digital printing company in Southeast Asia, Singapore agency,
+                Australia parking startup, Social media startup and one of
+                biggest media in Indonesia startup.
               </p>
               <p className="text-white-70">
-                I have experience more than 13 years, start from working at
-                biggest digital printing in Southeast Asia, Singapore agency,
-                Australia parking startup, Social media startup and one of
-                biggest media in Indonesia startup. I have been working with a
-                lot of awesome people to learn just more about digital printing,
-                creating brand, marketing design campaign, website design, build
-                various kinds of products.
+                I have been working with a lot of awesome people to learn just
+                more about digital printing, creating brand, marketing design
+                campaign, website design, build various kinds of products and culture.
               </p>
               <p className="text-white-70">
                 The approach for each graphic &amp; product work derives from

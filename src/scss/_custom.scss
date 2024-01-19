@@ -222,7 +222,7 @@
 }
 section {
   min-height: 100vh;
-  padding: ($spacer * 5) 0;
+  padding: ($spacer * 6) 0;
 }
 .title {
   position: relative;
@@ -271,6 +271,13 @@ section {
       @include scale(1.1);
     }
   }
+  @include media-breakpoint-down(sm) {
+    .artwork-thumb {
+      .wrapper-thumb {
+        height: 350px;
+      }
+    }
+  }
 }
 .finalart {
   color: $gray-900;
@@ -314,7 +321,7 @@ section {
 }
 .back-showcase {
   backdrop-filter: blur(5px);
-  background-color: rgba($secondary, 0.8);
+  background-color: rgba($gray-900, 0.8);
 }
 .btn-contact {
   display: inline-flex;
@@ -332,7 +339,7 @@ section {
 
 .scroll-animate-wrapper {
   position: absolute;
-  bottom: $spacer;
+  bottom: $spacer*2;
   left: 0;
   right: 0;
   opacity: 0.5;
@@ -377,6 +384,9 @@ section {
       opacity: 0;
       top: 25px;
     }
+  }
+  @include media-breakpoint-down(sm) {
+    bottom: $spacer*5;
   }
 }
 .text-white-70{

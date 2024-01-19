@@ -130,7 +130,7 @@ function Modal() {
             style={{ width: "24px", height: "auto" }}
             alt="icon linkedin"
           />
-          <span className="ml-2">Back</span>
+          <span className="ml-2">All works</span>
         </button>
       </div>
       <div className="container-showcase">
