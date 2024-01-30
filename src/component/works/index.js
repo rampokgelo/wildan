@@ -75,7 +75,7 @@ function Gallery() {
 
   return (
     <div className="artworks row py-5">
-      {WORKIMAGES.map((i) => (
+      {WORKIMAGES.reverse().map((i) => (
         <Link
           key={i.id}
           to={{

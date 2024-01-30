@@ -201,7 +201,7 @@ export const WORKIMAGES = [
   },
   {
     id: 24,
-    title: "A**...",
+    title: "A**",
     category:"Product, Web, Mobile app, and Brand Design",
     images: require("../../images/work-in-progress.gif"),
     showcase: require("../../images/porto/excited.gif"),
@@ -209,7 +209,7 @@ export const WORKIMAGES = [
   },
   {
     id: 25,
-    title: "99Fr*****...",
+    title: "99Fr****",
     category:"Product, Web, and Mobile app",
     images: require("../../images/work-in-progress.gif"),
     showcase: require("../../images/porto/excited.gif"),
@@ -217,7 +217,7 @@ export const WORKIMAGES = [
   },
   {
     id: 26,
-    title: "Jus******...",
+    title: "Jus*****",
     category:"Product, Web, and Mobile app",
     images: require("../../images/work-in-progress.gif"),
     showcase: require("../../images/porto/excited.gif"),
