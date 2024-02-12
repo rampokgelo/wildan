@@ -195,7 +195,8 @@
   justify-content: center;
   position: relative;
   h1 {
-    font-size: $font-size-base * 8;
+    font-size: $font-size-base * 10;
+    line-height: 1;
     font-weight: 900;
     text-transform: uppercase;
     position: relative;
@@ -203,7 +204,7 @@
       position: absolute;
       right: -$spacer * 3;
       top: -$spacer * 3;
-      width: 300px;
+      width: 350px;
       z-index: -1;
     }
   }
@@ -227,7 +228,7 @@ section {
 .title {
   position: relative;
   font-weight: 900;
-  margin-bottom: $spacer*2;
+  margin-bottom: $spacer * 2;
   > span {
     display: inline-block;
     background-color: $gray-900;
@@ -339,7 +340,7 @@ section {
 
 .scroll-animate-wrapper {
   position: absolute;
-  bottom: $spacer*2;
+  bottom: $spacer * 2;
   left: 0;
   right: 0;
   opacity: 0.5;
@@ -386,9 +387,17 @@ section {
     }
   }
   @include media-breakpoint-down(sm) {
-    bottom: $spacer*8;
+    bottom: $spacer * 8;
   }
 }
-.text-white-70{
+.text-white-70 {
   color: rgba($white, 0.7);
+}
+.outline-text {
+  color: $gray-900;
+  text-shadow:
+    -1px -1px 0 #fff,
+    1px -1px 0 #fff,
+    -1px 1px 0 #fff,
+    1px 1px 0 #fff;
 }

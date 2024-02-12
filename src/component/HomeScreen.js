@@ -6,9 +6,9 @@ class HomeScreen extends React.Component {
       <React.Fragment>
         <div className="banner">
           <h1>
-            Hi
+            <span>Hi</span>
             <br />
-            There.
+            <span className="outline-text">There.</span>
             <img
               className="animated infinite wobble slow"
               src={require("./../images/hand.svg")}

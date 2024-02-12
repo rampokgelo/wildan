@@ -9,6 +9,7 @@ import {
   useParams,
 } from "react-router-dom";
 import { WORKIMAGES } from "./WorksData";
+import ScrollAnimation from "react-animate-on-scroll";
 
 // This example shows how to render two different screens
 // (or the same screen in a different context) at the same URL,
@@ -64,7 +65,12 @@ function ShowCase({ showcase, title }) {
   return (
     <>
       <div className="text-center">
-        <img src={showcase} alt={title} style={{width:"100%"}} loading="lazy" />
+        <img
+          src={showcase}
+          alt={title}
+          style={{ width: "100%" }}
+          loading="lazy"
+        />
       </div>
     </>
   );
@@ -86,9 +92,11 @@ function Gallery() {
           }}
           className="col-12 col-sm-6 col-md-4 artwork-thumb"
         >
-          <h5 className="mb-0">{i.title}</h5>
-          <p className="mb-2">{i.category}</p>
-          <Thumbnail images={i.images} />
+          <ScrollAnimation animateIn="fadeInRight">
+            <h5 className="mb-0">{i.title}</h5>
+            <p className="mb-2">{i.category}</p>
+            <Thumbnail images={i.images} />
+          </ScrollAnimation>
         </Link>
       ))}
     </div>
