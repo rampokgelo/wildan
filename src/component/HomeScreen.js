@@ -8,7 +8,7 @@ class HomeScreen extends React.Component {
           <h1>
             <span>Hi</span>
             <br />
-            <span className="outline-text">There.</span>
+            <span>There.</span>
             <img
               className="animated infinite wobble slow"
               src={require("./../images/hand.svg")}
