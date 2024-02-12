@@ -8,6 +8,9 @@ import {
   Link,
   useRouteMatch,
 } from "react-router-dom";
+
+import ScrollToTop from "./helpers/ScrollToTop";
+
 import HomeScreen from "./component/HomeScreen";
 import AboutScreen from "./component/AboutScreen";
 import WorkScreen from "./component/WorkScreen";
@@ -21,6 +24,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div>
         <nav className="navbar navbar-main">
           <a className="navbar-brand" href="/">
